@@ -1,3 +1,45 @@
-body{
-	background-color: #FF0000; /*company colors/*
+/*body{
+	background-color: #FF0000; /*company colors/*/
+body {
+	margin: 0;
+}
+#sister-sites small {
+	display: block;
+	color: #777777;
+}
+#sister-sites li {
+	display: inline-block;
+	margin-right: 10px;
+
+}
+#sister-sites ul {
+	margin: 0 auto;
+	/*background-color: red;*/
+	width: 960px;
+	padding-left: 0;
+	
+}
+#sister-sites a {
+	text-decoration: none;
+	color: #0297d2;
+}
+#sister-sites {
+background-color: #eeeeee;
+padding-top: 5px;
+border-bottom: 1px solid #aaaaaa;
+}
+#active-site a {
+	color: #777777;
+
+}
+#active-sites {
+	background-color: white;
+	padding:4px 5px 0 5px;
+	border-left: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	position: relative;
+	top: 2px;
 }
