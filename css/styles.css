@@ -9,7 +9,12 @@ body {
 }
 #sister-sites li {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 1px;
+	padding:4px 5px 0 5px;
+	border: 1px solid transparent;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	word-spacing: normal;
 
 }
 #sister-sites ul {
@@ -27,12 +32,13 @@ body {
 background-color: #eeeeee;
 padding-top: 5px;
 border-bottom: 1px solid #aaaaaa;
+word-spacing: -4px;
 }
 #active-site a {
 	color: #777777;
 
 }
-#active-sites {
+li#active-sites {
 	background-color: white;
 	padding:4px 5px 0 5px;
 	border-left: 1px solid #aaaaaa;
@@ -42,4 +48,14 @@ border-bottom: 1px solid #aaaaaa;
 	border-top-left-radius: 3px;
 	position: relative;
 	top: 2px;
+}
+#sister-sites li:hover:not(#active-sites){
+	background-color: white;
+    /*padding: 4px 5px 0 5px;*/
+    border: 1px solid #bde2f1;
+    border-bottom: none;
+}
+#sister-sites li:hover:not(#active-sites) a, 
+#sister-sites li:hover:not(#active-sites) a small {
+	color: #bde2f1;
 }
